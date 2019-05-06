@@ -11,7 +11,7 @@ def bogosort(array):
     count = 0
     while not is_sorted(array):
         random.shuffle(array)
-        count += 1;
+        count += 1
     print(count)
     return array
 
