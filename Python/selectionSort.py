@@ -6,7 +6,7 @@ def swap(array, index1, index2):
     array[index2] = temp
 
 def selectionSort(array):
-    for index,item in enumeration(array):
+    for index,item in enumerate(array):
         low = array[index]
         location = index
         for i in range(index + 1, len(array)):
